@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechVista</title>
+</head>
+<body>
+    <big><h1 align="center">TechVista</h1></big>
+    <h2 align="center">- An Open Tech Event for all to enter a showoff your respective tech skills</h2>
+    <h4 align="center">Event Registration Form</h4>
+    <form>
+        <table align="center" width="600px">
+            <caption>Personal Information<hr></caption>
+            <h4 align="center">Please fill in the form below to register for the event</h4>
+            <hr>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name" placeholder="Enter your name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" placeholder="Enter your email" required></td>
+            </tr>
+            <tr>
+                <td><label for="mob">mobile no:</label></td>
+                <td><input type="mob" id="mob" name="mob" placeholder="Enter your mobiele no" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" placeholder="Enter your password"></td>
+            </tr>
+            <tr>
+                <td><label for="confirm_password">Confirm Password:</label></td>
+                <td><input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm your password" required><br></td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <table align="center" width="600px">
+            <caption>Project Information<hr></caption>
+            <tr>
+                <td><label>Type of project</label></td>
+                <td>
+                    <input type="radio" name="Type of project" /> Software
+                    <input type="radio" name="Type of projectr" /> Hardware
+                </td>
+            </tr>
+            <tr>
+                <td><label for="validation">Project domain:</label></td>
+                <td>
+                    <input type="checkbox" name="hobbies" /> AI
+                    <input type="checkbox" name="hobbies" /> IOT
+                    <input type="checkbox" name="hobbies" /> WEB DEVELOPMENT
+                    <input type="checkbox" name="hobbies" /> APP DEVELOPMENT
+                </td>
+            </tr>
+                
+        </table>
+        <button type="button" onclick="alert('Your form has been submitted successfully!')">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
