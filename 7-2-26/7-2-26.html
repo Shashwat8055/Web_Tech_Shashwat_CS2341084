@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+        <h1 align="center">Hotel Booking Form</h1>
+    <form>
+        <table align="center" height="400px" width="700px">
+            <caption>Personal Information</caption>
+            <h4 align="center">Please fill in the form below to book your room</h4>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name" placeholder="Enter your name" required><br></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" placeholder="Enter your email" required><br></td>
+            </tr>
+            <tr>
+                <td><label for="mob">mobile no:</label></td>
+                <td><input type="mob" id="mob" name="mob" placeholder="Enter your mobiele no" required><br></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" placeholder="Enter your password"><br></td>
+            </tr>
+            <tr>
+                <td><label for="confirm_password">Confirm Password:</label></td>
+                <td><input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm your password" required><br></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td>
+                    <input type="radio" name="gender" /> Male
+                    <input type="radio" name="gender" /> Female
+                </td>
+            </tr>
+            <tr>
+                <td><label for="validation">Room Preferences:</label></td>
+                <td>
+                    <input type="checkbox" name="hobbies" /> AC ROOM
+                    <input type="checkbox" name="hobbies" /> NON AC ROOM
+                    <input type="checkbox" name="hobbies" /> AC ROOM WITH GEYSER
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Address">Address</label></td>
+                <td><textarea id="Address" name="Address" placeholder="Enter your address" style="resize: none;"></textarea><br>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="country">Country:</label></td>
+                <td>
+                    <select id="country" name="country">
+                        <option value="">Select your country</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                        <option value="india">India</option>
+                        <option value="australia">Australia</option>
+                    </select><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit"/>
+                    <input type="reset" value="Reset"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</body>
+</html>
